@@ -59,6 +59,7 @@ export const DEFAULT_OPERATION_MODE: operationMode = 'automatic';
  * Limit how many rooms you can claim (for any shard)
  */
 export const MAX_OWNED_ROOMS = Infinity;
+// export const MAX_OWNED_ROOMS = 2;
 
 /**
  * If you are running on shard3 (CPU limit 20), only claim this many rooms
@@ -82,6 +83,7 @@ export const GUI_SCALE = 1.0;
  * WARNING: enabling RL_TRAINING_MODE will wipe the contents of your memory!
  */
 export const RL_TRAINING_MODE = onTrainingEnvironment();
+// export const RL_TRAINING_MODE = true;
 
 /**
  * Configure how much stuff gets logged to console
